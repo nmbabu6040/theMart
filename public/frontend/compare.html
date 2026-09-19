@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from wpocean.com/html/tf/themart/compare.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Jun 2023 08:56:28 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="wpOceans">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <title>Themart - eCommerce HTML5 Template</title>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/flaticon_ecommerce.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="assets/sass/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <div class="loader-circle"></div>
+                    <div class="loader-line-mask">
+                        <div class="loader-line"></div>
+                    </div>
+                    <img src="assets/images/preloader.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- end preloader -->
+
+        <!-- start header -->
+        <header id="header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="contact-intro">
+                                <span>A Marketplace Initiative by Themart Theme - save more with coupons</span>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="contact-info">
+                                <ul>
+                                    <li><a href="tel:869968236"><span>Need help? Call Us:</span>+ +869 968 236</a></li>
+                                    <li>
+                                        <div class="dropdown">
+                                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                English
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">English</a></li>
+                                                <li><a class="dropdown-item" href="#">Bangla</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown">
+                                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                USD
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                                <li><a class="dropdown-item" href="#">BDT</a></li>
+                                                <li><a class="dropdown-item" href="#">USD</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end topbar -->
+            <!--  start header-middle -->
+            <div class="header-middle">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <form action="#" class="middle-box">
+                                <div class="category">
+                                    <select name="service" class="form-control">
+                                        <option disabled="disabled" selected="">All Category</option>
+                                        <option>Men</option>
+                                        <option>Women</option>
+                                        <option>Kids</option>
+                                        <option>Sales</option>
+                                        <option>Perfect Cake</option>
+                                        <option>All Of The Above</option>
+                                    </select>
+                                </div>
+                                <div class="search-box">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control" placeholder="What are you looking for?">
+                                        <button class="search-btn" type="submit"> <i class="fi flaticon-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="middle-right">
+                                <ul>
+                                    <li><a href="compare.html"><i
+                                                class="fi flaticon-right-and-left"></i><span>Compare</span></a>
+                                    </li>
+                                    <li><a href="login.html"><i class="fi flaticon-user-profile"></i><span>Login</span></a></li>
+                                    <li>
+                                        <div class="header-wishlist-form-wrapper">
+                                            <button class="wishlist-toggle-btn"> <i class="fi flaticon-heart"></i>
+                                                <span class="cart-count">3</span></button>
+                                            <div class="mini-wislist-content">
+                                                <button class="mini-cart-close"><i class="ti-close"></i></button>
+                                                <div class="mini-cart-items">
+                                                    <div class="mini-cart-item clearfix">
+                                                        <div class="mini-cart-item-image">
+                                                            <a href="product.html"><img src="assets/images/cart/img-1.jpg"
+                                                                    alt></a>
+                                                        </div>
+                                                        <div class="mini-cart-item-des">
+                                                            <a href="product.html">Stylish Pink Coat</a>
+                                                            <span class="mini-cart-item-price">$150</span>
+                                                            <span class="mini-cart-item-quantity"><a href="#"><i
+                                                                        class="ti-close"></i></a></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mini-cart-item clearfix">
+                                                        <div class="mini-cart-item-image">
+                                                            <a href="product.html"><img src="assets/images/cart/img-2.jpg"
+                                                                    alt></a>
+                                                        </div>
+                                                        <div class="mini-cart-item-des">
+                                                            <a href="product.html">Blue Bag</a>
+                                                            <span class="mini-cart-item-price">$120</span>
+                                                            <span class="mini-cart-item-quantity"><a href="#"><i
+                                                                        class="ti-close"></i></a></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mini-cart-item clearfix">
+                                                        <div class="mini-cart-item-image">
+                                                            <a href="product.html"><img src="assets/images/cart/img-3.jpg"
+                                                                    alt></a>
+                                                        </div>
+                                                        <div class="mini-cart-item-des">
+                                                            <a href="product.html">Kids Blue Shoes</a>
+                                                            <span class="mini-cart-item-price">$120</span>
+                                                            <span class="mini-cart-item-quantity"><a href="#"><i
+                                                                        class="ti-close"></i></a></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mini-cart-action clearfix">
+                                                    <div class="mini-btn">
+                                                        <a href="wishlist.html" class="view-cart-btn">View Wishlist</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="mini-cart">
+                                            <button class="cart-toggle-btn"> <i class="fi flaticon-add-to-cart"></i>
+                                                <span class="cart-count">2</span></button>
+                                            <div class="mini-cart-content">
+                                                <button class="mini-cart-close"><i class="ti-close"></i></button>
+                                                <div class="mini-cart-items">
+                                                    <div class="mini-cart-item clearfix">
+                                                        <div class="mini-cart-item-image">
+                                                            <a href="product.html"><img src="assets/images/cart/img-1.jpg"
+                                                                    alt></a>
+                                                        </div>
+                                                        <div class="mini-cart-item-des">
+                                                            <a href="product.html">Stylish Pink Coat</a>
+                                                            <span class="mini-cart-item-price">$150 x 1</span>
+                                                            <span class="mini-cart-item-quantity"><a href="#"><i
+                                                                        class="ti-close"></i></a></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mini-cart-item clearfix">
+                                                        <div class="mini-cart-item-image">
+                                                            <a href="product.html"><img src="assets/images/cart/img-2.jpg"
+                                                                    alt></a>
+                                                        </div>
+                                                        <div class="mini-cart-item-des">
+                                                            <a href="product.html">Blue Bag</a>
+                                                            <span class="mini-cart-item-price">$120 x 2</span>
+                                                            <span class="mini-cart-item-quantity"><a href="#"><i
+                                                                        class="ti-close"></i></a></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mini-cart-action clearfix">
+                                                    <span class="mini-checkout-price">Subtotal:
+                                                        <span>$390</span></span>
+                                                    <div class="mini-btn">
+                                                        <a href="cart.html" class="view-cart-btn">View Cart</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  end header-middle -->
+            <div class="wpo-site-header">
+                <nav class="navigation navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3 d-lg-none dl-block">
+                                <div class="mobail-menu">
+                                    <button type="button" class="navbar-toggler open-btn">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar first-angle"></span>
+                                        <span class="icon-bar middle-angle"></span>
+                                        <span class="icon-bar last-angle"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-md-6 col-sm-5 col-6 d-block d-lg-none">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-3">
+                                <div class="header-shop-item">
+                                    <button class="header-shop-toggle-btn"><span>Shop By Category</span> </button>
+                                    <div class="mini-shop-item">
+                                        <ul id="metis-menu">
+                                            <li>
+                                                <a href="product.html">Feature Product</a>
+                                            </li>
+                                            <li class="header-catagory-item">
+                                                <a class="menu-down-arrow" href="#">Perfunsee & Cologne</a>
+                                                <ul class="header-catagory-single">
+                                                    <li><a href="#">Men's Clothing</a></li>
+                                                    <li><a href="#">Computer & Office</a></li>
+                                                    <li><a href="#">Jewelry & Watches</a></li>
+                                                    <li><a href="#">Phones & Accessories</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="product.html">Best Sellers</a>
+                                            </li>
+                                            <li class="header-catagory-item">
+                                                <a class="menu-down-arrow" href="#">Men Fashion</a>
+                                                <ul class="header-catagory-single">
+                                                    <li><a href="#">Men's Clothing</a></li>
+                                                    <li><a href="#">Computer & Office</a></li>
+                                                    <li><a href="#">Jewelry & Watches</a></li>
+                                                    <li><a href="#">Phones & Accessories</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="product.html">Bags & Shoes</a>
+                                            </li>
+                                            <li class="header-catagory-item">
+                                                <a class="menu-down-arrow" href="#">Women Fashion</a>
+                                                <ul class="header-catagory-single">
+                                                    <li><a href="#">Men's Clothing</a></li>
+                                                    <li><a href="#">Computer & Office</a></li>
+                                                    <li><a href="#">Jewelry & Watches</a></li>
+                                                    <li><a href="#">Phones & Accessories</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="header-catagory-item">
+                                                <a class="menu-down-arrow" href="#">Toys & kids Baby</a>
+                                                <ul class="header-catagory-single">
+                                                    <li><a href="#">Men's Clothing</a></li>
+                                                    <li><a href="#">Computer & Office</a></li>
+                                                    <li><a href="#">Jewelry & Watches</a></li>
+                                                    <li><a href="#">Phones & Accessories</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="product.html">Men's Clothing</a>
+                                            </li>
+                                            <li>
+                                                <a href="product.html">On Sale</a>
+                                            </li>
+                                            <li>
+                                                <a href="product.html">All Accessories</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-1 col-1">
+                                <div id="navbar" class="collapse navbar-collapse navigation-holder">
+                                    <button class="menu-close"><i class="ti-close"></i></button>
+                                    <ul class="nav navbar-nav mb-2 mb-lg-0">
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Shop</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">FAQ</a>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+        
+                                </div><!-- end of nav-collapse -->
+                            </div>
+                            <div class="col-lg-2 col-md-1 col-1">
+                                <div class="header-right">
+                                    <a href="recent-view.html" class="recent-btn"><i class="fi flaticon-refresh"></i>
+                                        <span>Recently Viewed</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end of container -->
+                </nav>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- start wpo-page-title -->
+        <section class="wpo-page-title">
+            <h2 class="d-none">Hide</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="wpo-breadcumb-wrap">
+                            <ol class="wpo-breadcumb-wrap">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Compare</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+        <!-- end page-title -->
+
+        <!-- start themart-compare-section  -->
+        <section class="themart-compare-section">
+            <h2 class="h-hidden">some</h2>
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td>Product</td>
+                                <td class="text-title">Stylish Pink Coat</td>
+                                <td class="text-title">Blue Bag</td>
+                                <td class="text-title">Blue Kids Shoes</td>
+                                <td class="text-title">Hand Made Hat</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Images</td>
+                                <td><img src="assets/images/cart/img-1.jpg" alt=""></td>
+                                <td><img src="assets/images/cart/img-2.jpg" alt=""></td>
+                                <td><img src="assets/images/cart/img-3.jpg" alt=""></td>
+                                <td><img src="assets/images/cart/img-4.jpg" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td>Categories</td>
+                                <td>Fashion</td>
+                                <td>Bags</td>
+                                <td>Shoes</td>
+                                <td>Hats</td>
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td>$250.00</td>
+                                <td>$200.00</td>
+                                <td>$120.00</td>
+                                <td>$200.00</td>
+                            </tr>
+                            <tr>
+                                <td>Color</td>
+                                <td>Brown</td>
+                                <td>Blue</td>
+                                <td>White</td>
+                                <td>Yellow</td>
+                            </tr>
+                            <tr>
+                                <td>Size</td>
+                                <td>Small</td>
+                                <td>Medium</td>
+                                <td>Large</td>
+                                <td>Extra Large</td>
+                            </tr>
+                            <tr>
+                                <td>Rating</td>
+                                <td>
+                                    <div class="rating-product">
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <span>70</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rating-product">
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <span>90</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rating-product">
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <span>60</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="rating-product">
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <i class="fi flaticon-star"></i>
+                                        <span>30</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Availability</td>
+                                <td>In Stock</td>
+                                <td>In Stock</td>
+                                <td>In Stock</td>
+                                <td>In Stock</td>
+                            </tr>
+                            <tr>
+                                <td>Purchase</td>
+                                <td><a href="cart.html">Add</a></td>
+                                <td><a href="cart.html">Add</a></td>
+                                <td><a href="cart.html">Add</a></td>
+                                <td><a href="cart.html">Add</a></td>
+                            </tr>
+                            <tr>
+                                <td>Action</td>
+                                <td>
+                                    <a data-bs-toggle="tooltip" data-bs-html="true" title="" href="#"
+                                        data-bs-original-title="Remove" aria-label="Remove">
+                                        <i class="fi flaticon-remove"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a data-bs-toggle="tooltip" data-bs-html="true" title="" href="#"
+                                        data-bs-original-title="Remove" aria-label="Remove">
+                                        <i class="fi flaticon-remove"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a data-bs-toggle="tooltip" data-bs-html="true" title="" href="#"
+                                        data-bs-original-title="Remove" aria-label="Remove">
+                                        <i class="fi flaticon-remove"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a data-bs-toggle="tooltip" data-bs-html="true" title="" href="#"
+                                        data-bs-original-title="Remove" aria-label="Remove">
+                                        <i class="fi flaticon-remove"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- end themart-compare-section  -->
+
+        <!-- start of themart-cta-section -->
+        <section class="themart-cta-section section-padding">
+            <div class="container">
+                <div class="cta-wrap">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-8 col-12">
+                            <div class="cta-content">
+                                <h2>Subscribe Our Newsletter & <br>
+                                    Get 30% Discounts For Next Order</h2>
+                                <form>
+                                    <div class="input-1">
+                                        <input type="email" class="form-control" placeholder="Your Email..."
+                                            required="">
+                                        <div class="submit clearfix">
+                                            <button class="theme-btn-s2" type="submit">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of themart-cta-section -->
+
+        <!-- start of wpo-site-footer-section -->
+        <footer class="wpo-site-footer">
+            <div class="wpo-upper-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="widget about-widget">
+                                <div class="logo widget-title">
+                                    <img src="assets/images/logo-2.svg" alt="blog">
+                                </div>
+                                <p>Elit commodo nec urna erat morbi at hac turpis aliquam.
+                                    In tristique elit nibh turpis. Lacus volutpat ipsum convallis tellus pellentesque
+                                    etiam.</p>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-twitter-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="widget link-widget">
+                                <div class="widget-title">
+                                    <h3>Contact Us</h3>
+                                </div>
+                                <div class="contact-ft">
+                                    <ul>
+                                        <li><i class="fi flaticon-mail"></i>themart@gmail.com</li>
+                                        <li><i class="fi flaticon-phone"></i>(208) 555-0112 <br>(704) 555-0127</li>
+                                        <li><i class="fi flaticon-pin"></i>4517 Washington Ave. Manchter,
+                                            Kentucky 495</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-xl-3 col-lg-2 col-md-6 col-sm-12 col-12">
+                            <div class="widget link-widget">
+                                <div class="widget-title">
+                                    <h3>Popular</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="product.html">Men</a></li>
+                                    <li><a href="product.html">Women</a></li>
+                                    <li><a href="product.html">Kids</a></li>
+                                    <li><a href="product.html">Shoe</a></li>
+                                    <li><a href="product.html">Jewelry</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="widget instagram">
+                                <div class="widget-title">
+                                    <h3>Instagram</h3>
+                                </div>
+                                <ul class="d-flex">
+                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg"
+                                                alt=""></a></li>
+                                    <li><a href="project-single.html"><img src="assets/images/instragram/2.jpg"
+                                                alt=""></a></li>
+                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg"
+                                                alt=""></a></li>
+                                    <li><a href="project-single.html"><img src="assets/images/instragram/3.jpg"
+                                                alt=""></a></li>
+                                    <li><a href="project-single.html"><img src="assets/images/instragram/4.jpg"
+                                                alt=""></a></li>
+                                    <li><a href="project-single.html"><img src="assets/images/instragram/1.jpg"
+                                                alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end container -->
+            </div>
+            <div class="wpo-lower-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-xs-12">
+                            <p class="copyright"> Copyright &copy; 2023 Themart by <a href="index.html">wpOceans</a>.
+                                All
+                                Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of wpo-site-footer-section -->
+
+
+
+    </div>
+    <!-- end of page-wrapper -->
+
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery.dlmenu.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+<!-- Mirrored from wpocean.com/html/tf/themart/compare.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Jun 2023 08:56:28 GMT -->
+</html>

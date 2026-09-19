@@ -1,0 +1,217 @@
+@extends('admin.layouts.master')
+
+@section('content')
+
+    <div class="page-content">
+
+        {{-- Header --}}
+        <div class="category-header d-flex justify-content-between align-items-center mb-4">
+
+            <h3>Edit Category</h3>
+
+            <div class="d-flex gap-2">
+
+                <a href="{{ route('categories.index') }}" class="btn btn-primary btn-sm">
+                    All
+                </a>
+
+                <a href="{{ route('categories.trash') }}" class="btn btn-danger btn-sm">
+                    Trash
+                </a>
+
+            </div>
+
+        </div>
+
+
+        {{-- Card --}}
+        <div class="card">
+
+            <div class="card-body">
+
+                {{-- Validation Errors --}}
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+
+                        <strong>Please fix the following errors:</strong>
+
+                        <ul class="mb-0 mt-2">
+
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+
+                        </ul>
+
+                    </div>
+                @endif
+
+
+                {{-- Edit Form --}}
+                <form action="{{ route('categories.update', $category->id) }}" method="POST" enctype="multipart/form-data">
+
+                    @csrf
+                    @method('PUT')
+
+
+                    <div class="row">
+
+                        {{-- Category Name --}}
+                        <div class="col-md-6">
+
+                            <div class="form-group mb-3">
+
+                                <label for="name">
+                                    Category Name
+                                </label>
+
+                                <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                    id="name" name="name" value="{{ old('name', $category->name) }}"
+                                    placeholder="Enter category name" required>
+
+                                @error('name')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+
+                            </div>
+
+                        </div>
+
+
+                        {{-- Slug --}}
+                        <div class="col-md-6">
+
+                            <div class="form-group mb-3">
+
+                                <label for="slug">
+                                    Slug
+                                </label>
+
+                                <input type="text" class="form-control" id="slug" value="{{ $category->slug }}"
+                                    readonly>
+
+                                <small class="text-muted">
+                                    Slug is generated automatically from the category name.
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        {{-- Current Image --}}
+                        <div class="col-md-6">
+
+                            <div class="form-group mb-3">
+
+                                <label>
+                                    Current Image
+                                </label>
+
+                                <div class="mb-3">
+
+                                    @if ($category->image)
+                                        <img src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}"
+                                            width="120" height="120" style="object-fit: cover; border-radius: 8px;">
+                                    @else
+                                        <div class="border rounded p-4 text-muted text-center" style="width: 120px;">
+                                            No Image
+                                        </div>
+                                    @endif
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        {{-- New Image --}}
+                        <div class="col-md-6">
+
+                            <div class="form-group mb-3">
+
+                                <label for="image">
+                                    Change Image
+                                </label>
+
+                                <input type="file" class="form-control @error('image') is-invalid @enderror"
+                                    id="image" name="image" accept=".jpg,.jpeg,.png,.webp">
+
+                                @error('image')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+
+                                <small class="text-muted">
+                                    Leave empty to keep the current image.
+                                    JPG, JPEG, PNG or WEBP. Maximum 2MB.
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        {{-- Status --}}
+                        <div class="col-md-6">
+
+                            <div class="form-group mb-3">
+
+                                <label for="status">
+                                    Status
+                                </label>
+
+                                <select name="status" id="status"
+                                    class="form-control @error('status') is-invalid @enderror">
+
+                                    <option value="1"
+                                        {{ old('status', $category->status ? '1' : '0') == '1' ? 'selected' : '' }}>
+                                        Active
+                                    </option>
+
+                                    <option value="0"
+                                        {{ old('status', $category->status ? '1' : '0') == '0' ? 'selected' : '' }}>
+                                        Inactive
+                                    </option>
+
+                                </select>
+
+                                @error('status')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    {{-- Buttons --}}
+                    <div class="mt-3">
+
+                        <button type="submit" class="btn btn-primary">
+                            Update Category
+                        </button>
+
+                        <a href="{{ route('categories.index') }}" class="btn btn-secondary">
+                            Cancel
+                        </a>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+@endsection
